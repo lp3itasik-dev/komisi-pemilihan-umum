@@ -1,0 +1,11 @@
+### List
+GET http://localhost:3000/faculties
+
+### Store
+POST http://localhost:3000/faculties
+Content-Type: application/json
+
+{
+  "name": "Sekolah Vokasi",
+  "dean": "Asep Manarul Hidayah"
+}

@@ -1,0 +1,12 @@
+### List
+GET http://localhost:3000/programs
+
+### Store
+POST http://localhost:3000/programs
+Content-Type: application/json
+
+{
+  "id_faculty": 1,
+  "name": "PROGRAMMING",
+  "headofprogram": "John Doe"
+}
