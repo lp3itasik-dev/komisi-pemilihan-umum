@@ -10,13 +10,15 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       identity: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        unique: true
       },
       name: {
         type: Sequelize.STRING
       },
       username: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        unique: true
       },
       password: {
         type: Sequelize.STRING

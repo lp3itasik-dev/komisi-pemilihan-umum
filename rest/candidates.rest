@@ -1,0 +1,20 @@
+### List
+GET http://localhost:3000/candidates
+
+### Store
+POST http://localhost:3000/candidates
+Content-Type: application/json
+
+{
+  "periods": "2025-2026",
+  "id_organization": 1,
+  "name": "AMIN",
+  "description": "Candidate AMIN adalah ANIES BASWEDAN",
+  "vision": "To be the best programmer",
+  "mision": "To learn and grow",
+  "photo": "https://example.com/photo.jpg",
+  "video": "https://example.com/video.mp4"
+}
+
+### Show
+GET http://localhost:3000/candidates/1

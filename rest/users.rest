@@ -1,0 +1,35 @@
+### List
+GET http://localhost:3000/users
+
+### Store
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "identity": "201702102",
+  "name": "Lerian Febriana",
+  "username": "kanglerian",
+  "password": "kanglerian",
+  "role": "P",
+  "id_program": 1,
+  "classes": "A",
+  "status": true
+}
+
+### Show
+GET http://localhost:3000/users/1
+
+### Update
+PATCH http://localhost:3000/users/1
+Content-Type: application/json
+
+{
+  "identity": "201702102",
+  "name": "Lerian Febriana",
+  "username": "kanglerian",
+  "password": "lp3itasik",
+  "role": "P",
+  "id_program": 1,
+  "classes": "A",
+  "status": true
+}

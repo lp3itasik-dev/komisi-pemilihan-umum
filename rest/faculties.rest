@@ -9,3 +9,6 @@ Content-Type: application/json
   "name": "Sekolah Vokasi",
   "dean": "Asep Manarul Hidayah"
 }
+
+### Show
+GET http://localhost:3000/faculties/1

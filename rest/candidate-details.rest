@@ -1,0 +1,15 @@
+### List
+GET http://localhost:3000/candidatedetails
+
+### Store
+POST http://localhost:3000/candidatedetails
+Content-Type: application/json
+
+{
+  "id_candidate": 1,
+  "name": "Anies Baswedan",
+  "description": "Candidate AMIN adalah ANIES BASWEDAN"
+}
+
+### Show
+GET http://localhost:3000/candidatedetails/1

@@ -23,7 +23,8 @@ module.exports = {
         unique: true,
       },
       headofprogram: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        unique: true,
       },
       status: {
         type: Sequelize.BOOLEAN,

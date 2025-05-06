@@ -10,3 +10,6 @@ Content-Type: application/json
   "name": "HIMA MI",
   "description": "Himpunan Mahasiswa Informatika Universitas Madinah"
 }
+
+### Show
+GET http://localhost:3000/organizations/1

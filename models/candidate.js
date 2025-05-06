@@ -27,7 +27,7 @@ module.exports = (sequelize, DataTypes) => {
     description: DataTypes.TEXT,
     vision: DataTypes.TEXT,
     mision: DataTypes.TEXT,
-    photo: DataTypes.TEXT,
+    photo: DataTypes.TEXT('long'),
     video: DataTypes.TEXT
   }, {
     sequelize,

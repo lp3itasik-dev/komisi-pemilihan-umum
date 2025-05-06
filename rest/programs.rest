@@ -10,3 +10,6 @@ Content-Type: application/json
   "name": "PROGRAMMING",
   "headofprogram": "John Doe"
 }
+
+### Show
+GET http://localhost:3000/programs/1

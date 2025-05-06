@@ -14,7 +14,8 @@ module.exports = {
         unique: true,
       },
       dean: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        unique: true,
       },
       status: {
         type: Sequelize.BOOLEAN,
